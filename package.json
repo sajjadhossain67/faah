@@ -1,0 +1,72 @@
+{
+  "name": "faah-error-sound",
+  "displayName": "FAAAAH Error Sound",
+  "description": "Plays FAAAah sound when commands fail",
+  "publisher": "Sajjad19397",
+  "author": {
+    "name": "Sajjad Hossain",
+    "url": "https://sajjad-hossain.netlify.app/"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajjadhossain67/faah.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sajjadhossain67/faah/issues"
+  },
+  "homepage": "https://github.com/sajjadhossain67/faah#readme",
+  "license": "MIT",
+  "keywords": [
+    "sound",
+    "error",
+    "fail",
+    "audio",
+    "notification",
+    "terminal",
+    "task",
+    "diagnostic",
+    "fun",
+    "humor"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "icon": "faah.ico",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "FAAAAH Error Sound",
+      "properties": {
+        "faah.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable FAAAah sound on failures"
+        },
+        "faah.cooldown": {
+          "type": "number",
+          "default": 2000,
+          "description": "Cooldown between sounds (ms)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "16.x",
+    "@types/vscode": "^1.109.0",
+    "@vscode/test-electron": "^2.2.3",
+    "eslint": "^8.34.0",
+    "glob": "^10.3.0"
+  }
+}

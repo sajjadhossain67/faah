@@ -1,0 +1,15 @@
+.vscode/**
+.vscode-test/**
+test/**
+node_modules/**
+.git/**
+.gitignore
+package-lock.json
+yarn.lock
+tsconfig.json
+.eslintrc*
+.prettierrc*
+**/*.map
+**/*.ts
+QUICKSTART.md
+SOUND-RESOURCES.md

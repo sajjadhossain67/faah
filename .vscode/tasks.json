@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "fail-task",
+      "type": "shell",
+      "command": "exit 1",
+      "problemMatcher": []
+    },
+    {
+      "label": "success-task",
+      "type": "shell",
+      "command": "echo Success!",
+      "problemMatcher": []
+    }
+  ]
+}
