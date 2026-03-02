@@ -19,6 +19,9 @@
     "url": "https://github.com/sajjadhossain67/faah/issues"
   },
   "homepage": "https://github.com/sajjadhossain67/faah#readme",
+  "sponsor": {
+    "url": "https://github.com/sponsors/sajjadhossain67"
+  },
   "license": "MIT",
   "keywords": [
     "sound",

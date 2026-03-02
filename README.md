@@ -116,6 +116,14 @@ Repository: https://github.com/sajjadhossain67/faah.git
 
 MIT
 
+## Support the Project
+
+This extension has reached **11,000+ downloads** and is free to use! If you find it helpful and want to support continued development, consider sponsoring:
+
+💖 **[Sponsor on GitHub](https://github.com/sponsors/sajjadhossain67)**
+
+Your support helps maintain and improve this extension. Thank you!
+
 ---
 
 **Enjoy making your errors more entertaining!** 🎉
